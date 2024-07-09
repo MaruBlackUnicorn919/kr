@@ -1,0 +1,156 @@
+<mxfile host="app.diagrams.net" modified="2024-07-09T17:44:55.612Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" etag="qwgXqHrXk-OFUDy2UJc6" version="21.6.2" type="device">
+  <diagram name="Страница 1" id="-FLLMSF8bOhSY_mKbfHn">
+    <mxGraphModel dx="1002" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="be3nLa4gn9_liEJhuqw3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="be3nLa4gn9_liEJhuqw3-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="100" as="targetPoint" />
+            <mxPoint x="365" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="be3nLa4gn9_liEJhuqw3-3" target="be3nLa4gn9_liEJhuqw3-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-3" value="Предложить пользователю ввести массив строк, разделенных пробелом&lt;br&gt;&lt;br&gt;Console.WriteLine(&quot;Введите элементы массива (разделяйте пробелом):&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="be3nLa4gn9_liEJhuqw3-5" target="be3nLa4gn9_liEJhuqw3-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-5" value="Разделить строку пользовательского ввода на массив отдельных строк&lt;br&gt;&lt;br&gt;&lt;div&gt;string input = Console.ReadLine();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; string[] initialArray = input.Split(&#39; &#39;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="210" width="425" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="be3nLa4gn9_liEJhuqw3-7" target="be3nLa4gn9_liEJhuqw3-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-7" value="Отображение исходного массива строк, введенных пользователем&lt;br&gt;&lt;br&gt;Console.WriteLine(&quot;Первоначальный массив:&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="310" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="be3nLa4gn9_liEJhuqw3-9" target="be3nLa4gn9_liEJhuqw3-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="be3nLa4gn9_liEJhuqw3-9" target="be3nLa4gn9_liEJhuqw3-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="be3nLa4gn9_liEJhuqw3-9" target="be3nLa4gn9_liEJhuqw3-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="721" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-9" value="Вызов функции FilterArray, чтобы создать новый массив, содержащий только строки длинной меньше или равной 3&lt;br&gt;&lt;br&gt;&lt;div&gt;PrintArray(initialArray);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; string[] newArray = FilterArray(initialArray)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="410" width="590" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="be3nLa4gn9_liEJhuqw3-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-11" value="Отобразить новый массив, содержащий только короткие строки&lt;br&gt;&lt;br&gt;&lt;div&gt;Console.WriteLine(&quot;Новый массив (длина строк &amp;lt;= 3):&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; PrintArray(newArray)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="530" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-16" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-17" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="be3nLa4gn9_liEJhuqw3-18" target="be3nLa4gn9_liEJhuqw3-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="770" />
+              <mxPoint x="120" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-18" value="PrintArrayFunction&lt;br&gt;&lt;br&gt;static void PrintArray(string[] arr)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="690" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="be3nLa4gn9_liEJhuqw3-20" target="be3nLa4gn9_liEJhuqw3-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="125" y="900" />
+              <mxPoint x="125" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-20" value="Пребрать входной массив и вывести каждый элемент&lt;br&gt;&lt;br&gt;&lt;div&gt;foreach (string item in arr)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Console.Write(item + &quot; &quot;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="800" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-22" value="Вывести новую строку после печати всех элементов массива&lt;br&gt;&lt;br&gt;Console.WriteLine()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="920" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="be3nLa4gn9_liEJhuqw3-24" target="be3nLa4gn9_liEJhuqw3-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="800" />
+              <mxPoint x="720" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-24" value="FilterArrayFuction&lt;br&gt;&lt;br&gt;Console.WriteLine()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="be3nLa4gn9_liEJhuqw3-26" target="be3nLa4gn9_liEJhuqw3-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="990" />
+              <mxPoint x="730" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-26" value="Перебрать входной массив и подсчитать количество строк длиной меньше или равной 3&lt;br&gt;&lt;br&gt;&lt;div&gt;int count = 0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; foreach (string item in arr)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (item.Length &amp;lt;= 3)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; count++;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="810" width="380" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="be3nLa4gn9_liEJhuqw3-28" target="be3nLa4gn9_liEJhuqw3-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="1270" />
+              <mxPoint x="740" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-28" value="Выделить новый массив, размер которого определяется количеством коротких строк&lt;br&gt;&lt;br&gt;&lt;div&gt;string[] newArr = new string[count];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; int index = 0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; foreach (string item in arr)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1090" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="be3nLa4gn9_liEJhuqw3-30" target="be3nLa4gn9_liEJhuqw3-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="1460" />
+              <mxPoint x="740" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-30" value="Перебрать входной массив и скопировать короткие строки в новый массив&lt;br&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;if (item.Length &amp;lt;= 3)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; newArr[index] = item;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; index++;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1300" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="be3nLa4gn9_liEJhuqw3-32" value="Вывести новый массив, содержащий только короткие строки&lt;br&gt;&lt;br&gt;&amp;nbsp;return newArr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1470" width="240" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
